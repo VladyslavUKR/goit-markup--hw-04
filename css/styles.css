@@ -32,7 +32,7 @@ img {
   padding: 0 15px;
 }
 
-.icon.srction .section {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -131,10 +131,17 @@ span {
 /* ================HERO================ */
 
 .hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/bg-hero/Img\ \(3\).jpg');
+  background-color: #2f303a;
+  background-size: cover;
+  background-position: center;
+
+  max-width: 1600px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: #2f303a;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -213,6 +220,24 @@ span {
   letter-spacing: 0.03em;
   color: var(--secondary-page-color);
 }
+
+.advantages-list-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.advantages-item-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
 /* ================/ADVANTEGES================ */
 /* ================ABOUT================ */
 
@@ -270,13 +295,41 @@ span {
 }
 
 .employees-text {
-  padding-bottom: 30px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   color: var(--secondary-page-color);
 }
+.social-list {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.social-link:hover,
+.social-link :focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /* background-color: tomato; */
+}
+
 /* ================/EMPLOYEES================ */
 
 /* =======MAIN PAGE PORTFOLIO ======== */
