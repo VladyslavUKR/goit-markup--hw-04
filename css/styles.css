@@ -305,7 +305,6 @@ span {
 .social-list {
   display: flex;
   width: 206px;
-  height: 44px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -317,20 +316,77 @@ span {
 .social-link:hover,
 .social-link :focus {
   background-color: #2196f3;
-  color: #fff;
+  fill: var(--secondary-accent-page-color);
 }
 
 .social-link {
+  fill: #afb1b8;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  /* background-color: tomato; */
 }
 
 /* ================/EMPLOYEES================ */
+
+/* =============customers========= */
+.customers-icon {
+  fill: #afb1b8;
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+  fill: var(--accent-page-color);
+}
+/* .customers-item :focus,
+.customers-item :hover {
+  background-color: var(--accent-page-color);
+} */
+
+.customers-title {
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-page-color);
+}
+
+.customers-list {
+  display: flex;
+  gap: 30px;
+}
+
+.customers-item:focus,
+.customers-item:hover {
+  border: 1px solid var(--accent-page-color);
+  border-radius: 4px;
+}
+
+.customers-item {
+  display: flex;
+  width: 170px;
+  height: 92px;
+
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 106px;
+  height: 60px;
+}
+
+/* ============= /customers========= */
 
 /* =======MAIN PAGE PORTFOLIO ======== */
 
@@ -465,5 +521,30 @@ span {
   line-height: 1.71;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.join-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-title {
+  display: flex;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-accent-page-color);
+}
+
+.join-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
 }
 /* ================/FOOTER================ */
