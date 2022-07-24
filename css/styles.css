@@ -482,11 +482,15 @@ span {
 /* =======/MAIN PAGE PORTFOLIO ======== */
 
 /* ================/FOOTER================ */
+
+.footer-nav {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  height: 252px;
-
   background-color: #2f303a;
 }
 
@@ -529,8 +533,7 @@ span {
   color: rgba(255, 255, 255, 0.6);
 }
 .media-footer {
-  display: flex;
-  justify-content: center;
+  margin-left: 70px;
 }
 .join-list {
   display: flex;
@@ -538,8 +541,7 @@ span {
   justify-content: center;
 }
 .join-title {
-  font-weight: 700;
-  display: flex;
+  margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -557,5 +559,11 @@ span {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #fff;
+}
+
+.join-item:hover,
+.join-item:focus {
+  background-color: var(--accent-page-color);
+  border-radius: 50%;
 }
 /* ================/FOOTER================ */
