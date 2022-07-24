@@ -127,6 +127,13 @@ span {
   color: var(--accent-page-color);
   cursor: pointer;
 }
+
+.envelope-icon,
+.smartphone-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* ================/HEADER================ */
 /* ================HERO================ */
 
@@ -493,7 +500,6 @@ span {
 
 .address {
   margin-top: 20px;
-
   font-style: normal;
 }
 .footer-logo {
@@ -522,13 +528,17 @@ span {
 
   color: rgba(255, 255, 255, 0.6);
 }
-
+.media-footer {
+  display: flex;
+  justify-content: center;
+}
 .join-list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .join-title {
+  font-weight: 700;
   display: flex;
   font-size: 14px;
   line-height: 1.14;
@@ -545,6 +555,7 @@ span {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #fff;
 }
 /* ================/FOOTER================ */
