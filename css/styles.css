@@ -124,16 +124,11 @@ span {
   line-height: 1.71;
   color: var(--secondary-page-color);
 }
-.contacts-link:hover,
-.contacts-link:focus {
-  color: var(--accent-page-color);
-  cursor: pointer;
-}
 
 /* .contacts-link:hover,
 .contacts-link:focus {
-  fill: #fff;
-  background: #fff;
+  color: #2196f3;
+  cursor: pointer;
 } */
 
 .envelope-icon,
@@ -457,7 +452,6 @@ span {
 .about-portfolio-item {
   width: 370px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .about-rotfolio-link {
   display: block;
@@ -466,7 +460,6 @@ span {
 .about-rotfolio-link:hover,
 .about-rotfolio-link:focus {
   background: #ffffff;
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -510,8 +503,8 @@ span {
   color: #fff;
 }
 
-.footer-item:not(:last-child) {
-  margin-bottom: 9px;
+.join-list {
+  gap: 10px;
 }
 
 .address {
