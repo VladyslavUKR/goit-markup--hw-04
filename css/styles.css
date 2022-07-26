@@ -535,10 +535,9 @@ span {
   color: var(--secondary-accent-page-color);
 }
 
-.footer-link:focus svg,
-.footer-link:hover svg {
-  fill: #2196f3;
-  background: #fff;
+.footer-link:focus,
+.footer-link:hover {
+  color: var(--accent-page-color);
 }
 
 .footer-link {
@@ -576,9 +575,10 @@ span {
   fill: #fff;
 }
 
-.join-item:hover,
-.join-item:focus {
+.join-link:hover,
+.join-link:focus {
   background-color: var(--accent-page-color);
   border-radius: 50%;
 }
+
 /* ================/FOOTER================ */
