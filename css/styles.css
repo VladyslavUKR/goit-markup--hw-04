@@ -377,7 +377,10 @@ span {
 .customers-link:focus,
 .customers-link:hover {
   border: 1px solid var(--accent-page-color);
-  border-radius: 4px;
+}
+
+.customers-link:focus svg,
+.customers-link:hover svg {
   fill: #2196f3;
 }
 
@@ -530,7 +533,20 @@ span {
 
 .footer-link:focus,
 .footer-link:hover {
-  color: var(--accent-page-color);
+  fill: white;
+  background-color: #2196f3;
+}
+
+/* .footer-link:hover,
+.footer-link:focus {
+  background-color: #2196f3;
+  fill: #fff;
+} */
+
+.footer-link svg,
+.footer-link svg {
+  fill: #fff;
+  background-color: #2196f3;
 }
 
 .footer-link {
@@ -570,7 +586,7 @@ span {
 
 .join-item:hover,
 .join-item:focus {
-  background-color: var(--accent-page-color);
+  /* background-color: var(--accent-page-color); */
   border-radius: 50%;
 }
 /* ================/FOOTER================ */
