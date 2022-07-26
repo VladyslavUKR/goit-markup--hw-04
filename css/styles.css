@@ -126,9 +126,15 @@ span {
 }
 .contacts-link:hover,
 .contacts-link:focus {
-  fill: var(--accent-page-color);
+  color: var(--accent-page-color);
   cursor: pointer;
 }
+
+/* .contacts-link:hover,
+.contacts-link:focus {
+  fill: #fff;
+  background: #fff;
+} */
 
 .envelope-icon,
 .smartphone-icon {
@@ -230,13 +236,6 @@ span {
   letter-spacing: 0.03em;
   color: var(--secondary-page-color);
 }
-
-/* .advantages-list-section {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
-} */
 
 .advantages-svg {
   display: flex;
@@ -377,7 +376,12 @@ span {
 .customers-link:focus,
 .customers-link:hover {
   border: 1px solid var(--accent-page-color);
-  border-radius: 4px;
+
+  /* fill: #2196f3; */
+}
+
+.customers-link:hover svg,
+.customers-link:focus svg {
   fill: #2196f3;
 }
 
@@ -457,9 +461,12 @@ span {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
+.about-rotfolio-link {
+  display: block;
+}
 
-.about-portfolio-item:hover,
-.about-portfolio-item:focus {
+.about-rotfolio-link:hover,
+.about-rotfolio-link:focus {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -528,9 +535,10 @@ span {
   color: var(--secondary-accent-page-color);
 }
 
-.footer-link:focus,
-.footer-link:hover {
-  color: var(--accent-page-color);
+.footer-link:focus svg,
+.footer-link:hover svg {
+  fill: #2196f3;
+  background: #fff;
 }
 
 .footer-link {
