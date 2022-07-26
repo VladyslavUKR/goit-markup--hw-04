@@ -543,8 +543,14 @@ span {
   fill: #fff;
 } */
 
-.footer-link svg,
-.footer-link svg {
+/* .footer-link:focus svg,
+.footer-link:hover svg {
+  fill: #fff;
+  background-color: #2196f3;
+} */
+
+.footer-link:focus svg,
+.footer-link:hover svg {
   fill: #fff;
   background-color: #2196f3;
 }
